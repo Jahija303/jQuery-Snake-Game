@@ -24,7 +24,7 @@ canvas {
     align-items: center;
 }
 
-/*Pocetna stranica*/
+/*Main Page*/
 .landing-page {
     margin-top: 320px;
     display: flex;
@@ -33,7 +33,7 @@ canvas {
     justify-items: center;
 }
 
-/*Header stranice*/
+/*Header page*/
 .landing-page h1 {
     color: #f2f2f2;
     font-family: 'Press Start 2P', cursive;
@@ -52,7 +52,7 @@ canvas {
     margin-top: 3%;
 }
 
-/*Start dugme*/
+/*Start button*/
 .landing-page a {
     text-decoration: none;
     color: #f2f2f2;
@@ -60,7 +60,7 @@ canvas {
     font-size: 22px;
 }
 
-/*Input imena i difficulty*/
+/*Input name and difficulty*/
 #unos {
     width: 400px;
     height: 100px;
@@ -68,7 +68,7 @@ canvas {
     color: #f2f2f2;
 }
 
-/*Ime*/
+/*Name*/
 #ime {
     margin-bottom: 15px;
 }
@@ -87,14 +87,14 @@ input:focus {
     background-color: rgba(255, 255, 255, 0);
 }
 
-/*Difficulty + ime*/
+/*Difficulty + Name*/
 #ime, #difficulty {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*Label za difficulty*/
+/*Label for difficulty*/
 #diff-label {
     margin-right: 95px;
 }
@@ -117,7 +117,7 @@ input:focus {
     margin-top: 30px;
 }
 
-/*Continue dugme*/
+/*Continue button*/
 #continue a {
     text-decoration: none;
     color: #f2f2f2;
@@ -141,7 +141,7 @@ input:focus {
     font-size: 80px;
     color: #f2f2f2;
 
-    /*Highlight teksta*/
+    /*Highlight text*/
     user-select: none; /* supported by Chrome and Opera */
    -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -149,7 +149,7 @@ input:focus {
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
-/*Restart game*/
+/*Restart Game*/
 #restart {
     position: absolute;
     top: 55%;
@@ -157,7 +157,7 @@ input:focus {
     transform: translate(-50%, -50%); 
 }
 
-/*Restart game dugme*/
+/*Restart game button*/
 #restart a {
     text-decoration: none;
     color: #f2f2f2;
@@ -177,7 +177,7 @@ input:focus {
     justify-items: end;
     color: #f2f2f2;
 
-    /*Highlight teksta*/
+    /*Highlight text*/
     user-select: none; /* supported by Chrome and Opera */
    -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
